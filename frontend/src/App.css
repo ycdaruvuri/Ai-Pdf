@@ -1,0 +1,148 @@
+/* frontend/src/App.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.App-main {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fdfdfd;
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #282c34;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input[type="text"],
+.input-group textarea {
+  width: 95%; /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.input-group textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+  background-color: #61dafb; /* React blue */
+  color: #282c34;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #4fa8d3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.status-message {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #e7f3fe;
+  border: 1px solid #b3d9ff;
+  color: #31708f;
+}
+
+.status-message p {
+  margin: 0;
+}
+
+.info {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.results {
+  margin-top: 30px;
+}
+
+.answer-box {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
+
+.sources-box {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.sources-box h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.sources-box ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.sources-box li {
+  margin-bottom: 5px;
+}
