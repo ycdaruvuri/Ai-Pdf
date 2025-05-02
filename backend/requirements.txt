@@ -1,0 +1,12 @@
+langchain==0.1.16
+langchain-openai==0.1.3
+langchain-community==0.0.32
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-dotenv==1.0.1
+pypdf==4.1.0
+python-docx==1.1.0
+chromadb==0.4.24
+tiktoken==0.6.0
+# Add faiss-cpu if using FAISS instead of Chroma
+# faiss-cpu
